@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'test-python-docs-hello-world-gh-westus'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f7cb3c0d86844905a35f00e38fbf38ae }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e38207d7f0cd4796830f2326f58f2ac9 }}

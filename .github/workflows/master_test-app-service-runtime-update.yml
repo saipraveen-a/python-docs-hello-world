@@ -5,8 +5,7 @@ name: Build and deploy Python app to Azure Web App - test-app-service-runtime-up
 
 on:
   push:
-    branches:
-      - master
+    paths: ./github/workflows/master_test-app-service-runtime-update.yml
 
 jobs:
   build-and-deploy:
